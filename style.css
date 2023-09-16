@@ -15,15 +15,26 @@ body{
     display: flex;
     flex-direction: column;
 }
-#header{
+
+.wrapper {
+    background: lightblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
     /*background: #462521;*/
     background: #000;
-    padding: 20px 0px;
+    padding: 2px 0px;
 }
 
 .container{
     padding: 5px 2%; /*padding topbottom leftright*/
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .container p {
@@ -73,7 +84,7 @@ nav ul li a:hover::after{
 
 /*        ABOUT         */
 #about {
-    padding: 40px 0;
+    padding: 15vh 0 0 0;
     color: #141414;
 }
 .column{
@@ -90,7 +101,7 @@ nav ul li a:hover::after{
 
 /*     PROJECTS         */
 #projects {
-    padding: 40px 0;
+    padding: 20px 0;
     color: #ababab;
 }
 .work-done{
@@ -133,7 +144,7 @@ nav ul li a:hover::after{
 
 /*     CONTACT     */
 #contact{
-    padding: 40px 0;
+    padding: 20px 0;
     color: #141414;
 }
 
